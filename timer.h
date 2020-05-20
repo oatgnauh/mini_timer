@@ -1,12 +1,13 @@
-#ifndef TIMER_HPP__
-#define TIMER_HPP__
+#ifndef TIMER_H__
+#define TIMER_H__
 
-#include <thread>
-#include <condition_variable>
-#include <mutex>
-#include <map>
 #include <chrono>
+#include <condition_variable>
 #include <ctime>
+#include <map>
+#include <mutex>
+#include <thread>
+
 
 
 using pFunTimerCB = void(*)(void* param);
